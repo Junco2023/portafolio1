@@ -1,0 +1,80 @@
+body{
+    /*Saca los bordes del sitio*/
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+}
+
+header {
+    display: flex;
+ background-color: gray;
+ align-items: center;
+ justify-content: space-between;
+}
+.seccion1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.acerca-de {
+  border-style: groove;
+  
+}
+.acerca-imagen img{
+  border-radius: 6em;
+  width: 10em;
+  height: 10em;
+}
+nav ul {
+    display :flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5em; 
+}
+.seccion3{
+    display: flex;
+    background-color: #3f3535;
+    border-style: groove;
+    
+   
+}
+.Recursos{
+  display: inline-block;
+  background-color: coral;
+  justify-content: flex-end;
+  margin: 1em;
+  border-style: groove;
+  border-color: aqua;
+  max-width: 20em;
+  max-height: 30em;
+  
+ 
+}
+.seccion3 img{
+  align-items: center;
+  justify-content: stretch;
+
+  max-width: 20em;
+  max-height: 20em;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+  body{
+background-color: blue;
+  }  
+  .seccion3{
+    display: block;
+  }
+
+}
+
+.aleatorio{
+  display: block;
+  background-color: aquamarine;
+}
